@@ -1,0 +1,21 @@
+.bannar-wrapper {
+  padding: 4rem 5rem;
+}
+
+.bannar-row {
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.bannar-wrapper .left {
+  border-left: 8px solid var(--primary);
+  padding-left: 1rem;
+}
+.bannar-wrapper .left h1 {
+  color: var(--textMain);
+}
+
+.bannar-wrapper .right p {
+  margin: 0;
+  font-size: 16px;
+}

@@ -1,0 +1,68 @@
+/* Our Food >js */
+.ourprodouct-wrapper {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  background-image: url("../../images/bg-overlay.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+.ourfood-slider {
+  padding: 1rem;
+  display: flex;
+}
+
+/* Food Card Stylings */
+.ourfood-card {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 6px;
+}
+
+.card-image {
+  width: 400px;
+}
+.foodCard-info {
+  background-color: #fe043abe;
+  bottom: 0;
+  color: #fff;
+  position: absolute;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.foodCard-info h3 {
+  font-size: 2rem;
+}
+
+.foodCard-info p {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.foodcard-lower {
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foodcard-lower .cardinfo-location p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.foodcard-lower .cardinfo-booknow button {
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  background-color: #fff;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.2;
+  outline: var(--primary);
+  border: var(--primary);
+}

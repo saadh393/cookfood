@@ -1,0 +1,118 @@
+main {
+  height: 100%;
+  padding: 2rem;
+  position: relative;
+}
+
+main::after {
+  content: "";
+  height: 100%;
+  width: 25%;
+  background-color: var(--primary);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+main::before {
+  content: "";
+  height: 80%;
+  width: 80%;
+  background-image: url("../../images/bg-overlay.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-root > div {
+  flex-grow: 1;
+  width: 50%;
+}
+
+/* Hero Left */
+.hero-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 4rem;
+}
+
+.hero-left .ovarlayText {
+  font-size: 8rem !important;
+  position: absolute;
+  top: 10%;
+  z-index: -2;
+  opacity: 0.1;
+}
+.hero-left h1 {
+  font-size: 50px;
+  color: var(--textMain);
+}
+
+.hero-left .hero-search {
+  width: 70%;
+  height: 60px;
+  font-size: 1rem;
+  background-color: #fff;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 3px 50px 0px rgba(255, 112, 112, 16%);
+}
+
+.hero-left .hero-search button {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 30%;
+  color: #fff;
+  font-weight: 700;
+  background-color: var(--primary);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  transition: filter 0.1s ease-in-out;
+}
+.hero-left .hero-search button:focus {
+  opacity: 0.9;
+  filter: drop-shadow(0px 0px 10px #ff3d6847);
+}
+
+.hero-left .hero-search button:not(:focus) {
+  opacity: 1;
+  filter: drop-shadow(0px 0px 0px #fff);
+}
+
+.hero-left .hero-search input {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+/* Hero Right */
+.hero-right {
+  position: relative;
+}
+.hero-right img {
+  width: 80%;
+  position: relative;
+}
+
+.hero-right::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../images/lattuce.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 60%;
+}
