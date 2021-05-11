@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './Components/Banner/Banner';
+import Booking from './Components/Booking/Booking';
 import Hero from './Components/Hero/Hero';
 import OurFoods from './Components/OurFoods/OurFoods';
 
@@ -9,6 +10,7 @@ function App() {
             <Hero />
             <Banner />
             <OurFoods />
+            <Booking />
         </>
     );
 }
