@@ -1,0 +1,82 @@
+.mobileApp-wrapper {
+  padding: 3rem;
+  background-color: var(--secondaryDeep);
+}
+
+.mobileApp-row {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mobileApp-row .mobileApp-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mobileApp-row .mobileApp-text p {
+  color: var(--textSecondary);
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.mobileApp-row .mobileApp-text h1 {
+  font-size: 2.5rem;
+  color: var(--textMain);
+  line-height: 1.2;
+  border-left: 8px solid var(--primary);
+  padding-left: 1rem;
+}
+
+.mobileApp-row .mobileApp-text .mobileApp-platforms img {
+  width: 160px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.appStore {
+  height: 48px;
+}
+
+.mobileApp-row .mobileApp-screenshort {
+  position: relative;
+  text-align: center;
+}
+
+.mobileApp-row .mobileApp-screenshort img {
+  width: 60%;
+}
+
+.mobileApp-row .mobileApp-screenshort .mobile-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.mobileApp-row .mobileApp-screenshort .mobile-bg::before {
+  content: "ss";
+  background-color: greenyellow;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  position: absolute;
+}
+
+.mobileApp-row .mobileApp-screenshort .lotas-bg {
+  position: absolute;
+  left: 10px;
+  top: 30%;
+  z-index: 0;
+}
+
+.bgOvarlay {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 40% !important;
+}

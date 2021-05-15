@@ -1,0 +1,72 @@
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+footer::before {
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  height: 110%;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../images/footer.png");
+}
+
+footer h2 {
+  font-weight: 600;
+  color: var(--textMain);
+}
+
+footer p {
+  margin: 1rem auto;
+  color: var(--textSecondary);
+}
+
+footer .newsletterEmail {
+  background: #fff;
+  padding: 5px;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin-top: 2rem;
+}
+
+footer .newsletterEmail input {
+  outline: none;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  width: 300px;
+}
+footer .newsletterEmail button {
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  background: var(--primary);
+  padding: 0.8rem;
+  border-radius: 100%;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+footer .newsletterEmail button:hover {
+  background: var(--textMain) 50%;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+footer ul li {
+  color: var(--textSecondary);
+}

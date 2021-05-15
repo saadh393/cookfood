@@ -3,6 +3,7 @@
 :root {
   --primary: #fe043c;
   --secondary: #fff5ec;
+  --secondaryDeep: #ffedde;
   --textMain: #2e266f;
   --textSecondary: #707070;
 }
@@ -20,4 +21,12 @@ body {
 .row {
   width: 100%;
   display: flex;
+}
+
+.centerInParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
 }

@@ -66,3 +66,14 @@
   outline: var(--primary);
   border: var(--primary);
 }
+
+@media only screen and (max-width: 600px) {
+  .ourprodouct-wrapper {
+    height: auto;
+    justify-content: center;
+  }
+  .ourfood-slider {
+    flex-direction: column;
+    align-items: center;
+  }
+}

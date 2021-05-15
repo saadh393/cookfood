@@ -116,3 +116,50 @@ main::before {
   background-position: 100% 100%;
   background-size: 60%;
 }
+
+@media only screen and (max-width: 500px) {
+  main {
+    height: 100vh;
+    padding-bottom: 0;
+  }
+  main .hero-root {
+    flex-direction: column-reverse !important;
+  }
+
+  main::after {
+    display: none;
+  }
+  .hero-root > div {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  .hero-left {
+    margin-top: 2rem;
+    padding-top: 3rem !important;
+  }
+  .hero-left h1 {
+    font-size: 2rem;
+  }
+  .hero-left .ovarlayText {
+    font-size: 5rem;
+    top: 40%;
+    text-align: center;
+  }
+  .hero-left .hero-search {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  main::before {
+    content: "";
+    height: 300px;
+    width: 300px;
+    background-position: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

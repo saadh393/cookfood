@@ -1,0 +1,66 @@
+/* Root */
+.exploreFoodWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.exploreFoodWrapper h3 {
+  font-size: 2rem;
+  color: var(--textMain);
+  text-align: center;
+}
+.exploreFoodWrapper p {
+  text-align: center;
+  color: var(--textSecondary);
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.foodItemsRow {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card */
+.cardExplorar-wrapper {
+  background-color: #fff;
+  /* width: 29%; */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: border-bottom 0.4s ease-in-out;
+}
+
+.cardExplorar-wrapper img {
+  width: 100%;
+}
+
+.cardExplorar-wrapper .nameAndPrice {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1rem;
+  padding-bottom: 0;
+}
+
+.cardExplorar-wrapper .nameAndPrice h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cardExplorar-wrapper .nameAndPrice .price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.cardExplorar-wrapper p {
+  width: 100%;
+  padding: 10px 1rem;
+  padding-top: 0;
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: var(--textSecondary);
+}

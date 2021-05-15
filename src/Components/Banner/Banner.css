@@ -19,3 +19,13 @@
   margin: 0;
   font-size: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+  .bannar-wrapper {
+    padding: 1rem 2rem;
+  }
+  .bannar-row {
+    flex-direction: column;
+    width: 100%;
+  }
+}

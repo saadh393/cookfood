@@ -1,0 +1,128 @@
+.ourservice-wrapper {
+  padding: 5rem;
+}
+
+.ourservice-row-1 {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row1-left h1 {
+  font-size: 3rem;
+  color: var(--textMain);
+}
+.row1-left {
+  border-left: 10px solid var(--primary);
+  padding-left: 1rem;
+}
+
+/* Services Grid */
+.ourServiceGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  gap: 30px;
+  margin: 4rem auto;
+  margin-top: 5rem;
+  grid-template-areas:
+    " tableBookingImage tableBookingText freeHomeDelivary"
+    " freeFoodText freeFoodImage freeHomeDelivary";
+}
+
+.ourServiceGrid img {
+  width: 50%;
+}
+
+/* Table Booking Image - Row 1 */
+.tableBookingImage {
+  grid-area: tableBookingImage;
+  background-color: var(--secondaryDeep);
+  padding: 2rem;
+}
+
+/* Table Booking Text - Row 2 */
+.tableBookingText {
+  grid-area: tableBookingText;
+  text-align: left;
+  align-items: flex-end;
+}
+.tableBookingText h3 {
+  position: relative;
+  color: var(--textMain);
+}
+.tableBookingText .booking::after {
+  content: "";
+  top: 50%;
+  left: -120%;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  border-radius: 20px;
+  background-color: var(--primary);
+}
+.tableBookingText p {
+  text-align: right;
+  line-height: 1.1;
+  margin-top: 5px;
+  color: var(--textSecondary);
+}
+
+/* Free Home Delivary - Row 3 */
+.freeHomeDelivary {
+  grid-area: freeHomeDelivary;
+  background-color: var(--secondaryDeep);
+}
+
+/* Free Food Text - Row 4 */
+.freeFoodText {
+  grid-area: freeFoodText;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.freeFoodText h3 {
+  text-align: left;
+  color: var(--textMain);
+  position: relative;
+}
+
+.freeFoodText .freeFood {
+  margin-left: 5rem;
+  position: relative;
+}
+.freeFoodText .freeFood::after {
+  content: "";
+  width: 50%;
+  height: 4px;
+  left: -55%;
+  top: 50%;
+  position: absolute;
+  background-color: var(--primary);
+}
+
+.freeFoodText::after {
+  content: url("../../images/left-to-right.png");
+  width: auto;
+  height: auto;
+  right: -76px;
+  position: absolute;
+}
+
+.freeFoodText p {
+  line-height: 1.1;
+  margin-top: 5px;
+  color: var(--textSecondary);
+}
+
+/* Free Food Image - Row 5 */
+.freeFoodImage {
+  grid-area: freeFoodImage;
+  padding: 2rem;
+  background-color: var(--secondaryDeep);
+}
