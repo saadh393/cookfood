@@ -8,9 +8,6 @@ import Hero from './Components/Hero/Hero';
 import MobileApp from './Components/MobileApp/MobileApp';
 import OurFoods from './Components/OurFoods/OurFoods';
 import OurServices from './Components/OurServices/OurServices';
-import OurFoods from './Components/OurFoods/OurFoods';
-import MobileApp from './Components/MobileApp/MobileApp';
-import Hero from './Components/Hero/Hero';
 
 function App() {
     return (
