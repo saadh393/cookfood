@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cookfood/static/css/main.2922e4ae.chunk.css",
-    "main.js": "/cookfood/static/js/main.181327ee.chunk.js",
-    "main.js.map": "/cookfood/static/js/main.181327ee.chunk.js.map",
+    "main.js": "/cookfood/static/js/main.40e3df85.chunk.js",
+    "main.js.map": "/cookfood/static/js/main.40e3df85.chunk.js.map",
     "runtime-main.js": "/cookfood/static/js/runtime-main.0497fc32.js",
     "runtime-main.js.map": "/cookfood/static/js/runtime-main.0497fc32.js.map",
     "static/js/2.ef460379.chunk.js": "/cookfood/static/js/2.ef460379.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.0497fc32.js",
     "static/js/2.ef460379.chunk.js",
     "static/css/main.2922e4ae.chunk.css",
-    "static/js/main.181327ee.chunk.js"
+    "static/js/main.40e3df85.chunk.js"
   ]
 }
