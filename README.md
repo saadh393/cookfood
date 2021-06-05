@@ -6,7 +6,7 @@ This is a Landing page of a Restaurant. You'll find a section to feature your da
 
 ⚡ Source Code : https://github.com/saadh393/cookfood
 
-⚡ Live Site : https://saadh393.github.io/cookfood/
+⚡ Live Site : https://cookfood-react.netlify.app
 
 ### Screenshort
 
