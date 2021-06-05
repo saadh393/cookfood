@@ -123,3 +123,32 @@
   z-index: 3;
   left: -150px;
 }
+
+@media only screen and (max-width: 600px) {
+  .booking-Wrapper {
+    padding: 1rem;
+  }
+
+  .booking-area {
+    padding: 2rem;
+    height: 250px;
+  }
+  .booking-Wrapper {
+    height: 360px;
+    padding: 2rem;
+  }
+
+  .booking-area h2 {
+    font-size: 1.8rem;
+  }
+
+  .booking-form {
+    width: 100%;
+  }
+
+  .booking-Wrapper img {
+    left: 0;
+    width: 200px;
+    transform: translateX(-45%);
+  }
+}

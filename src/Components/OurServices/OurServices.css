@@ -126,3 +126,37 @@
   padding: 2rem;
   background-color: var(--secondaryDeep);
 }
+
+@media only screen and (max-width: 600px) {
+  .ourservice-wrapper {
+    padding: 2rem;
+  }
+
+  .ourservice-row-1 {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .ourServiceGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas:
+      " tableBookingImage tableBookingText "
+      " freeFoodText freeFoodImage"
+      "freeHomeDelivary freeHomeDelivary";
+  }
+  .tableBookingImage {
+    padding: 0;
+  }
+  .freeFoodText p {
+    font-size: 14px;
+  }
+
+  .freeFoodText::after {
+    content: "";
+  }
+  .freeHomeDelivary {
+    padding: 2rem 0;
+  }
+}
